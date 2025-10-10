@@ -40,7 +40,7 @@ export default function ThemeToggle() {
       />
       <label
         htmlFor="darkmode-toggle"
-        className="flex items-center justify-center w-10 h-10 cursor-pointer rounded-full bg-gray-200 dark:bg-gray-800 transition-colors duration-300"
+        className="flex items-center justify-center w-10 h-10 cursor-pointer rounded-full dark:bg-gray-200 bg-gray-800 transition-colors duration-300"
       >
         {theme === "dark" ? (
           <Image
@@ -48,7 +48,7 @@ export default function ThemeToggle() {
             alt="Sun Icon"
             width="24"
             height="24"
-            className="w-6 h-6 text-yellow-400"
+            className="w-6 h-6"
           />
         ) : (
           <Image
@@ -56,7 +56,7 @@ export default function ThemeToggle() {
             alt="Moon Icon"
             width="24"
             height="24"
-            className="w-6 h-6 text-gray-700"
+            className="w-6 h-6 text-white bg-white rounded-full p-1"
           />
         )}
       </label>
