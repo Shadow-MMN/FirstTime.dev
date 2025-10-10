@@ -4,7 +4,7 @@ import ThemeToggle from "@/components/ThemeToggler";
 
 export default function Page() {
   return (
-    <div>
+    <div className="max-w-[1008px] mx-auto px-4 md:px-8">
       <ThemeToggle />
       <Hero />
       <Home />
