@@ -1,9 +1,13 @@
-export default function Home() {
+import Hero from "@/components/Hero";
+import Home from "@/components/Home";
+import ThemeToggle from "@/components/ThemeToggler";
+
+export default function Page() {
   return (
     <div>
-      {/*Search Bar */}
-      {/*Filter Options */}
-      {/*Search Results */}
+      <ThemeToggle />
+      <Hero />
+      <Home />
     </div>
   );
 }
