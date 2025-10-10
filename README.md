@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧭 FirstTime.Dev
 
-## Getting Started
+**FirstTime.Dev** is a platform designed to help developers discover open-source GitHub issues that match their skill level and interests.  
+Whether you're a beginner looking for your first contribution or an experienced developer searching for enhancement or medium-level issues, FirstTime.Dev makes the process simple and efficient.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💡 Why This Project?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contributing to open source can be challenging — not because of the code itself, but because finding the right issue to start with isn’t always easy.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+GitHub’s native search system doesn’t always favor contributors who want to filter issues by beginner-friendly tags like **“good first issue”**, **“entry-level”**, or **“enhancement”**. Many developers, especially newcomers, get overwhelmed trying to find where to begin.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**FirstTime.Dev** solves this problem by providing a focused, contributor-friendly interface where you can:
 
-## Learn More
+- 🔍 **Search** for GitHub issues across multiple repositories  
+- 🎯 **Filter** issues based on difficulty (*Good First Issue, Medium, Hard, Enhancement, etc.*)  
+- 🧭 **Explore** opportunities to contribute to open-source projects that align with your interests  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Goal
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The goal of **FirstTime.Dev** is to create a platform that:
 
-## Deploy on Vercel
+- Helps developers discover **issues suited to their level**  
+- Encourages more people to **get involved in open source**  
+- Reduces the frustration of **searching endlessly** for beginner-friendly issues  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We hope that **FirstTime.Dev** becomes a tool that bridges the gap between curious developers and open-source projects that need contributions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌍 Vision
+
+To build a global community where **every developer’s first open-source contribution** starts with confidence — powered by **FirstTime.Dev**.
