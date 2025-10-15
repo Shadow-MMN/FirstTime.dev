@@ -34,3 +34,41 @@ export const LANGUAGE_COLORS = [
   { name: "Rust", color: "#dea584" },
   { name: "Dart", color: "#00B4AB" },
 ];
+
+export const DUMMY_ISSUES = [
+  {
+    issueTitle: "Fix login button not responding on mobile",
+    issuer: "openai/frontend-team",
+    issueTags: ["bug", "frontend", "urgent"],
+    issueLanguages: ["JavaScript", "CSS"],
+    issueLastUpdate: "2",
+  },
+  {
+    issueTitle: "Add dark mode toggle to the settings page",
+    issuer: "shadowdev/ui-lab",
+    issueTags: ["enhancement", "UI", "design"],
+    issueLanguages: ["TypeScript", "React"],
+    issueLastUpdate: "5",
+  },
+  {
+    issueTitle: "Optimize image loading for performance",
+    issuer: "webcraft/performance",
+    issueTags: ["optimization", "performance"],
+    issueLanguages: ["Next.js", "JavaScript"],
+    issueLastUpdate: "1",
+  },
+  {
+    issueTitle: "Create a reusable modal component",
+    issuer: "devflow/components",
+    issueTags: ["feature", "reusability", "UI"],
+    issueLanguages: ["React", "TailwindCSS"],
+    issueLastUpdate: "9",
+  },
+  {
+    issueTitle: "Update dependencies to latest versions",
+    issuer: "system/maintenance",
+    issueTags: ["chore", "dependencies", "security"],
+    issueLanguages: ["Node.js"],
+    issueLastUpdate: "3",
+  },
+];
