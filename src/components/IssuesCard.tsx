@@ -11,11 +11,7 @@ const IssuesCard = ({
 }: IssuesCardType) => {
   return (
     <div className="max-w-full mx-auto border border-gray-600 dark:border-gray-200 min-h-44 rounded-xl p-4 mt-4">
-      <a
-        href="https://github.com"
-        target="_blank"
-        className="w-full min-h-40 flex flex-col justify-between gap-4"
-      >
+      <div className="w-full min-h-40 flex flex-col justify-between gap-4">
         {/* Heading */}
         <div>
           <h1 className="text-xl md:text-2xl">{issueTitle}</h1>
@@ -55,19 +51,23 @@ const IssuesCard = ({
             );
 
             return (
-              <p key={lang} className="flex items-center gap-1">
+              <div key={lang} className="flex items-center gap-1">
                 <div
                   className="w-2.5 h-2.5 rounded-full"
                   style={{ backgroundColor: match ? match.color : "#ccc" }}
                 ></div>
-                {lang}
-              </p>
+                <p>{lang}</p>
+              </div>
             );
           })}
         </div>
         <div className="flex flex-wrap items-center gap-4 text-sm">
           <p>Updated {issueLastUpdate} days ago</p>
         </div>
+      </div>
+      <a href="https://github.com" target="_blank">
+        {" "}
+        Apply for this issue
       </a>
     </div>
   );
