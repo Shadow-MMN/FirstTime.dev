@@ -65,10 +65,12 @@ const IssuesCard = ({
           <p>Updated {issueLastUpdate} days ago</p>
         </div>
       </div>
-      <a href="https://github.com" target="_blank">
-        {" "}
-        Apply for this issue
-      </a>
+      <div className="bg-gray-400 text-black dark:bg-black dark:text-white p-2 border border-gray-500 rounded-xl w-40 -ml-2 mt-4">
+        <a href="https://github.com" target="_blank">
+          {" "}
+          Apply for this issue
+        </a>
+      </div>
     </div>
   );
 };
