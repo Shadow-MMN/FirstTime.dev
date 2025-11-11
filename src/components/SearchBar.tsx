@@ -1,8 +1,12 @@
 "use client";
-import { useState } from "react";
 import { IoIosSearch, IoMdClose } from "react-icons/io";
-const SearchBar = () => {
-  const [searchValue, setSearchValue] = useState("");
+const SearchBar = ({
+  searchValue,
+  setSearchValue,
+}: {
+  searchValue: string;
+  setSearchValue: (value: string) => void;
+}) => {
   return (
     <div className="bg-[#f5f5f5] text-[#181818] dark:bg-[#383838] dark:text-white max-w-[640px] mx-auto rounded-r-full rounded-l-full px-4 py-3 flex items-center">
       <span>
